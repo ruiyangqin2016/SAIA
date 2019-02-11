@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:text="Not have an account? Sign up here"
+            android:id="@+id/textViewUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonEditProfile"
+            android:text="Edit Profile"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Manage Visitor"
+            android:id="@+id/buttonManageVisitor"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="View Request"
+            android:id="@+id/buttonViewRequest"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="Logout"
+            android:id="@+id/buttonLogout"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

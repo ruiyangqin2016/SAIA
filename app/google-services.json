@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "606031424483",
+    "firebase_url": "https://saia-a11be.firebaseio.com",
+    "project_id": "saia-a11be",
+    "storage_bucket": "saia-a11be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606031424483:android:166d7196a714edd4",
+        "android_client_info": {
+          "package_name": "c.spud.saia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606031424483-01eas7r1qijsm44sliqrpi8lma0j784h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "c.spud.saia",
+            "certificate_hash": "e0da5fa88feccc2be59cd0d586c92166bb5aef0d"
+          }
+        },
+        {
+          "client_id": "606031424483-6l3p6s68spdveivolq0a766l4q2b57u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCekWUKD2z-HcdtNXgBCT8BqjaWJymVUy4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606031424483-6l3p6s68spdveivolq0a766l4q2b57u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606031424483:android:b260c4936464c12b",
+        "android_client_info": {
+          "package_name": "com.application.saia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606031424483-nbvgr6ndh1qs421mj8kd4l5uofe991cc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.saia",
+            "certificate_hash": "e0da5fa88feccc2be59cd0d586c92166bb5aef0d"
+          }
+        },
+        {
+          "client_id": "606031424483-a6gt09h74p8cu878v3cqkjjje7re9ar9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.saia",
+            "certificate_hash": "257c243cb9641000ac6a25436623776ef8a951b0"
+          }
+        },
+        {
+          "client_id": "606031424483-6l3p6s68spdveivolq0a766l4q2b57u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCekWUKD2z-HcdtNXgBCT8BqjaWJymVUy4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606031424483-6l3p6s68spdveivolq0a766l4q2b57u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
