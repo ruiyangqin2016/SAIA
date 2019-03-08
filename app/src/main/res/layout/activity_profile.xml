@@ -46,6 +46,13 @@
             android:layout_height="wrap_content" />
 
         <Button
+            android:id="@+id/viewLog"
+            android:text="View Log Information"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content" />
+
+        <Button
             android:text="View Request"
             android:id="@+id/buttonViewRequest"
             android:layout_gravity="center_horizontal"

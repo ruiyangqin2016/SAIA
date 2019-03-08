@@ -30,6 +30,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     private Button buttonEditProfile;
     private Button buttonViewRequest;
 
+    private Button buttonViewLog;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +55,10 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         buttonEditProfile = (Button)findViewById(R.id.buttonEditProfile);
         buttonViewRequest = (Button)findViewById(R.id.buttonViewRequest);
 
+
+        ///
+        buttonViewLog = (Button) findViewById(R.id.viewLog);
+
         textViewUserEmail = (TextView)findViewById(R.id.textViewUserEmail);
         buttonLogout = (Button)findViewById(R.id.buttonLogout);
 
@@ -63,6 +69,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         buttonManageVisitor.setOnClickListener(this);
         buttonViewRequest.setOnClickListener(this);
         textViewUserEmail.setText("Welcome " + user.getEmail());
+
+        buttonViewLog.setOnClickListener(this);
     }
 
 //    private void saveUserInformation() {
@@ -98,6 +106,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         if (view == buttonManageVisitor) {
             finish();
             startActivity(new Intent(this, ManageVisitors.class));
+        }
+
+        if (view == buttonViewLog) {
+            finish();
+            startActivity(new Intent(this, AccessLogInfoActivity.class));
         }
 
     }
