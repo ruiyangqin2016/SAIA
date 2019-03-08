@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "606031424483-aj0vkbv2pfc6mqnlc4aand6a2jfnqug0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "c.spud.saia",
+            "certificate_hash": "5b4f710e913a1832459f357d4130eedc3bc0fdd7"
+          }
+        },
+        {
           "client_id": "606031424483-6l3p6s68spdveivolq0a766l4q2b57u0.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -72,6 +80,14 @@
           "android_info": {
             "package_name": "com.application.saia",
             "certificate_hash": "257c243cb9641000ac6a25436623776ef8a951b0"
+          }
+        },
+        {
+          "client_id": "606031424483-auo3066u2995kpuqchbqc4nld150nioc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.application.saia",
+            "certificate_hash": "549d50af4eb326d88917f27ca606fea94a7aa2dc"
           }
         },
         {

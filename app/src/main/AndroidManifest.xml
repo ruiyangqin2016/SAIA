@@ -23,6 +23,7 @@
         <activity android:name=".RequestActivity" />
         <activity android:name=".ManageVisitors" />
         <activity android:name=".editProfileActivity" />
+        <activity android:name=".AccessLogInfoActivity"></activity>
 
         <service
             android:name=".MyFirebaseMessagingService"
